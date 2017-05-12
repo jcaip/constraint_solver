@@ -4,6 +4,7 @@ This is the backtracking search solver that uses a couple of heurestics in order
 Written by Jesse Cai
 2017-05-05
 """
+
 from igraph import *
 
 class ConstraintSolver(object):
@@ -113,10 +114,12 @@ class ConstraintSolver(object):
 
 
 test = {
-    'california': ['r','g','b'],
-    'oregon': ['r','g','b'],
-    'nevada': ['r','g','b'],
     'washington': ['r','g','b'],
+    'oregon': ['r','g','b'],
+    'california': ['r','g','b'],
+    'idaho': ['r','g','b'],
+    'nevada': ['r','g','b'],
+    'utah': ['r','g','b'],
     'arizona': ['r','g','b']
 }
 
