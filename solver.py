@@ -133,5 +133,6 @@ mysolver.add_constraint(not_equal_constraint, 'california', 'nevada')
 mysolver.add_constraint(not_equal_constraint, 'oregon', 'washington')
 mysolver.add_constraint(not_equal_constraint, 'nevada', 'arizona')
 mysolver.add_constraint(not_equal_constraint, 'california', 'arizona')
+result =(mysolver.backtracking_search(mysolver.csp))
 
-print(mysolver.backtracking_search(mysolver.csp))
+print(result)
